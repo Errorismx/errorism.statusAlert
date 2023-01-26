@@ -1,0 +1,39 @@
+/************************
+CONFIG
+************************/
+:root {
+    /* COLORS */
+    --color-primary: #FFE600;
+    --color-secondary: #FA8231;
+    --color-danger: #EB3B5A;
+    --color-success: #26DE81;
+    --background-primary: 255, 230, 0; /* RGB */
+    --background-secondary: 250, 130, 49; /* RGB */
+    --background-danger: 235, 59, 90; /* RGB */
+    --background-success: 38, 222, 129; /* RGB */
+    --background-dark-900: #1B1E2E;
+    --background-dark-700: #232738;
+    --background-light-900: #F3F4F8;
+    --background-light-700: #FFFFFF;
+    /* FONTS */
+    --font-family: 'Kanit', 'Roboto', sans-serif;
+    --font-family-title: 'Kanit', 'Roboto', sans-serif;
+    --font-size: 100%;
+    --font-size-header: 1.25rem;
+    --font-size-title: 2.5rem;
+    /* BORDERS */
+    --border-radius: 1rem;
+    --border-width: 2px;
+    --border: var(--border-width) solid transparent;
+    /* TRANSITIONS */
+    --transition: all .2s ease-in-out;
+    /* CONTAINERS */
+    --container-width: 1400px;
+    /* SPACING */
+    --spacing-grid: 1.5rem;
+    --spacing-xl: 3rem;
+    --spacing-l: 1rem;
+    --spacing-m: .75rem;
+    --spacing-s: .5rem;
+    --spacing-xs: .25rem;
+}
